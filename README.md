@@ -21,7 +21,7 @@ You can use interfaces provided by this extension in another extension easily - 
 | [PSR-3] | [psr/log] [*](#psrlogunimpl) | [monolog/monolog] |
 | [PSR-6] | [psr/cache] | [psx/cache], [php-fig/cache-util] |
 | [PSR-7] | [psr/http-message] | [laminas/laminas-diactoros] |
-| [PSR-11] | [psr/container] | [psx/dependency] |
+| [PSR-11] | [psr/container] | [psx/dependency], [php-di/php-di] |
 | [PSR-13] | [psr/link] | [php-fig/link-util] |
 | [PSR-14] | [psr/event-dispatcher] | [crell/tukio], [php-fig/event-dispatcher-util] |
 | [PSR-15] | [psr/http-server-handler] | [equip/dispatch] |
@@ -197,6 +197,7 @@ PSR Interfaces: Copyright (c) 2012-present [PHP Framework Interoperability Group
 [php-fig/cache-util]: https://github.com/php-fig/cache-util
 [laminas/laminas-diactoros]: https://github.com/laminas/laminas-diactoros
 [php-fig/event-dispatcher-util]: https://github.com/php-fig/event-dispatcher-util
+[php-di/php-di]: https://github.com/PHP-DI/PHP-DI
 
 [:github-sergeyklay:]: https://github.com/sergeyklay
 [:github-jan-e:]: https://github.com/Jan-E

@@ -71,4 +71,5 @@ in
     psx-dependency = commonImport ./deps/psx-dependency.json ./deps/psx-dependency-packages.nix ./deps/psx-dependency-composer.lock "";
     cache-util = commonImport ./deps/cache-util.json ./deps/cache-util-packages.nix ./deps/cache-util-composer.lock "";
     event-dispatcher-util = commonImport ./deps/event-dispatcher-util.json ./deps/event-dispatcher-util-packages.nix ./deps/event-dispatcher-util-composer.lock "";
+    php-di = commonImport ./deps/php-di.json ./deps/php-di-packages.nix ./deps/php-di-composer.lock "tests/UnitTest/Definition/Source/AnnotationBasedAutowiringTest.php";
 }

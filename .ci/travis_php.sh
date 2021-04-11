@@ -87,6 +87,7 @@ function checkout_third_party_repos() (
     init_repository ${PSX_DEPENDENCY_SHORTNAME} ${PSX_DEPENDENCY_VERSION} ${PSX_DEPENDENCY_REPO}
     init_repository ${CACHE_UTIL_SHORTNAME} ${CACHE_UTIL_VERSION} ${CACHE_UTIL_REPO}
     init_repository ${EVENT_DISPATCHER_UTIL_SHORTNAME} ${EVENT_DISPATCHER_UTIL_VERSION} ${EVENT_DISPATCHER_UTIL_REPO}
+    init_repository ${PHP_DI_SHORTNAME} ${PHP_DI_VERSION} ${PHP_DI_REPO}
 )
 
 function before_install() (
@@ -160,6 +161,7 @@ function script() (
     cifold "test ${PSX_DEPENDENCY_SHORTNAME}" test_repository ${PSX_DEPENDENCY_SHORTNAME}
     cifold "test ${CACHE_UTIL_SHORTNAME}" test_repository ${CACHE_UTIL_SHORTNAME}
     cifold "test ${EVENT_DISPATCHER_UTIL_SHORTNAME}" test_repository ${EVENT_DISPATCHER_UTIL_SHORTNAME}
+    cifold "test ${PHP_DI_SHORTNAME}" test_repository ${PHP_DI_SHORTNAME}
 )
 
 function upload_coverage() (

@@ -38,5 +38,8 @@
     "CACHE_UTIL_VERSION": "81546610d505f60a5c4b9c7503b8220576a327eb",
     "EVENT_DISPATCHER_UTIL_SHORTNAME": "event-dispatcher-util",
     "EVENT_DISPATCHER_UTIL_REPO": "https://github.com/jbboehr/event-dispatcher-util.git",
-    "EVENT_DISPATCHER_UTIL_VERSION": "9dc08682c14a15bcd606671cc5db008a44157253"
+    "EVENT_DISPATCHER_UTIL_VERSION": "9dc08682c14a15bcd606671cc5db008a44157253",
+    "PHP_DI_SHORTNAME": "php-di",
+    "PHP_DI_REPO": "https://github.com/PHP-DI/PHP-DI.git",
+    "PHP_DI_VERSION": "6.0.11"
 }
